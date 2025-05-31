@@ -1,0 +1,4 @@
+Name=John
+Branch=CSE
+Section=B
+College=FOT
