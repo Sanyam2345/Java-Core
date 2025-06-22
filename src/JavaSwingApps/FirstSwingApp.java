@@ -1,9 +1,8 @@
 package JavaSwingApps;
-import java.awt.event.*;
 import java.awt.*;
 import javax.swing.*;
 
-class FirstSwingFrame extends JFrame implements ActionListener{
+class FirstSwingFrame extends JFrame {
 	JLabel l;
 	JButton b,b1;
 	int count = 0;
@@ -17,8 +16,8 @@ class FirstSwingFrame extends JFrame implements ActionListener{
 		add(b);
 		add(b1);
 		getRootPane().setDefaultButton(b);
-		b.addActionListener(e -> {count++;l.setText("" + count);});
-		b1.addActionListener(e -> System.exit(0));
+		b.addActionListener((e) -> {count++;l.setText("" + count);});
+		b1.addActionListener((e) -> System.exit(0));
 		
 	}
 }

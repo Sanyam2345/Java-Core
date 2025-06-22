@@ -6,7 +6,9 @@ import java.awt.*;
 import java.text.*;
 import java.util.Locale;
 
+@SuppressWarnings("serial")
 class FormattedTextFrame extends JFrame {
+	
 	FormattedTextFrame () {
 		super ("Formatted Text Demo");
 		JTextField tf = new JTextField(15);
